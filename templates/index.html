@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villager Bridge Problem</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Villager Bridge Problem</h1>
+        <form action="/run_cpp" method="post">
+            <label for="m">North to South Villagers:</label>
+            <input type="text" id="m" name="m"><br><br>
+            <label for="n">South to North Villagers:</label>
+            <input type="text" id="n" name="n"><br><br>
+            <label for="starvcnt">Starvation Count:</label>
+            <input type="text" id="starvcnt" name="starvcnt"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div id="bridge-visualization"></div>
+
+
+</body>
+</html>

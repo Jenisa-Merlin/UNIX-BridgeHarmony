@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villager Bridge Problem - Result</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static',filename='styles/result_styles.css') }}">
+</head>
+<body>
+    <h2>Solution</h2>
+    <pre>{{ output }}</pre>
+
+    <div class="analysis-container">
+        <h2 class="analysis-heading">Analysis of Villager Bridge Problem</h2>
+        <div class="analysis-item">
+            <span>Total Villagers:</span>
+            <span>{{ total_villagers }}</span>
+        </div>
+        <div class="analysis-item">
+            <span>Villagers going A to B:</span>
+            <span>{{ atb_count }}</span>
+        </div>
+        <div class="analysis-item">
+            <span>Villagers going B to A:</span>
+            <span>{{ bta_count }}</span>
+        </div>
+        <div class="analysis-item">
+            <span>Starvation Count:</span>
+            <span>{{ starvation_count }}</span>
+        </div>
+    </div>
+</html>
