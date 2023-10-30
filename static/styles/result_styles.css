@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #4653a9;
+    font-size: 25px;
+}
+
+pre {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.analysis-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.analysis-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.analysis-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
